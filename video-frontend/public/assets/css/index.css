@@ -1,0 +1,282 @@
+.fluid-container {
+  /* background-color: #343a40; */
+  width: 100%;
+  min-height: 857px;
+}
+
+/* 
+.nav {
+  justify-content: space-between;
+  display: flex;
+  font-size: 25px;
+  background-color: aqua;
+  width: 100%;
+}
+.nav-item {
+  color: rgb(14, 138, 247);
+  padding: 10px 0px;
+  font-family: "Courier New", Courier, monospace;
+  text-decoration: none !important;
+}
+.nav-title {
+  display: flex;
+  align-items: flex-start;
+  font-size: 35px;
+  padding: 5px 0px 0px 0px;
+  font-family: "Courier New", Courier, monospace;
+} */
+
+
+
+.form-sign{
+  margin: 211px 300px 0px 300px;
+  background: whitesmoke;
+  border-radius: 20px;
+  padding: 50px 50px;
+}
+.form-signout {
+  margin: 211px 300px 0px 300px;
+  background: whitesmoke;
+  border-radius: 20px;
+  padding: 50px 50px;
+}
+
+.signin-button {
+  margin: 10px 0px 0px 170px;
+  font-weight: 400;
+  font-size: 25px;
+  background: rgb(14, 138, 247);
+  border-radius: 6px;
+  border: 1px solid rgb(14, 138, 247);
+}
+
+.col-lg-3 {
+  border: 2px solid #6610f2;
+  margin: 20px 20px 20px 25px;
+  width: 30%;
+}
+
+.home-cart {
+  border: 2px solid #28a745;
+  padding: 10px 85px;
+}
+
+.home-item {
+  width: 100%;
+  color: aliceblue;
+  display: grid;
+  text-align: center;
+  font-size: 30px;
+  background-color: #343a40;
+  font-family: "Courier New", Courier, monospace;
+}
+
+.home-item-desc {
+  color: aliceblue;
+  display: grid;
+  text-align: center;
+  font-size: 20px;
+  background-color: #28a745;
+  margin-bottom: 10px;
+  font-family: "Courier New", Courier, monospace;
+}
+
+.home-item-price {
+  color: aliceblue;
+  font-size: 20px;
+  display: inline-flex;
+  background-color: #28a745;
+  padding: 7px 20px;
+  margin-left: 230px;
+  margin-bottom: 10px;
+  border-radius: 4px;
+  font-family: "Courier New", Courier, monospace;
+}
+
+.btn.btn-block.btn-success {
+  color: aliceblue;
+  font-size: 20px;
+  margin-bottom: 5px;
+  font-family: "Courier New", Courier, monospace;
+  border-radius: 0%;
+  background-color: #343a40;
+}
+
+.side-panel {
+  /* margin-bottom: 555px; */
+  border: 1px solid white;
+  display: grid;
+  text-align: center;
+  background-color: whitesmoke;
+}
+
+.side-panel-item {
+  height: 60px;
+  font-size: 30px;
+  font-family: "Courier New", Courier, monospace;
+  border-bottom: 1px solid black;
+  padding: 10px 0px;
+  text-decoration: none !important;
+}
+
+.footer {
+  width: 100%;
+  font-size: 35px;
+  text-align: center;
+  background-color: #a4b3a7;
+  height: 55px;
+}
+
+.data {
+  background-color: #fff;
+}
+
+.table {
+  margin-top: 40px;
+  width: 100%;
+  align-items: center;
+  border: 2px solid #ddd;
+}
+
+td {
+  text-align: center;
+  border: 2px solid #ddd;
+}
+
+th {
+  text-align: center;
+  border: 2px solid #ddd;
+}
+
+.page-content {
+  margin-top: 40px;
+}
+
+.slider-section {
+  position: relative;
+}
+
+.detail-box {
+  position: absolute;
+  bottom: 600px;
+}
+
+span.visually-hidden {
+  display: none;
+}
+
+.carousel-indicators {
+
+  display: none !important;
+
+}
+
+.carousel-control-prev {
+  display: none !important;
+}
+
+.carousel-control-next {
+  display: none !important;
+}
+
+h1 span {
+  color: rgb(248, 65, 59)
+}
+
+.slider-item {
+  line-height: 70px;
+  font-size: 4.5rem;
+  color: #002c3e;
+  font-weight: 600;
+}
+
+.description {
+  margin-top: 50px;
+  text-align: center;
+  font-weight: 600;
+  font-size: 60px;
+}
+
+.card {
+  margin: 50px 0px;
+  background-color: #002c3e !important;
+  color: #fff;
+  justify-content: center;
+  align-items: center !important;
+  min-height: 200px;
+}
+
+svg {
+  width: 60px;
+  height: 70px;
+}
+
+.container #h1 {
+  font-size: 70px;
+}
+
+.box {
+  /* position: relative; */
+  border: 10px solid #fff;
+  padding: 35px;
+  box-shadow: 10px 10px 10px 10px;
+  background-color: #f7f8f9;
+  overflow: hidden;
+  transition: all .3s;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 50px;
+}
+
+.image-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* height: 215px; */
+}
+
+.image-box img{
+  width: 100%;
+}
+
+.product-detail-box {
+  position: unset;
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+/* styling start for Video-Chatting */
+#form {
+  background: whitesmoke;
+  color: #002c3e;
+  border-radius: 20px;
+  padding: 50px 50px;
+  font-size: 20px;
+  font-family: 'Courier New', Courier, monospace;
+}
+.myId{
+  background: whitesmoke;
+  color: #002c3e;
+  border-radius: 20px;
+  padding: 50px 50px;
+  font-size: 20px;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+/* styling end for Video-Chatting app here */
+
+
+
+.userDetails{
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 4px solid white;
+  text-transform: capitalize;
+  align-items: center;
+}
